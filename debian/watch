@@ -1,0 +1,2 @@
+version=4
+  https://github.com/fantostisch/vpn-lib-common/releases .*/wg-v?(\d\S+)\.tar\.gz

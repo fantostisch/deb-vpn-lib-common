@@ -1,0 +1,27 @@
+Source: vpn-lib-common
+Section: php
+Priority: optional
+Maintainer: François Kooman <fkooman@tuxed.net>
+Build-Depends: debhelper-compat (= 12),
+ pkg-php-tools,
+ phpunit,
+ phpab,
+ php-mbstring,
+ php-constant-time,
+ php-psr-log,
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Homepage: https://git.tuxed.net/LC/vpn-lib-common/about/
+Vcs-Git: https://git.tuxed.net/LC/vpn-lib-common
+
+Package: wireguard-php-lc-common
+Architecture: all
+Conflicts: php-lc-common
+Depends: ${misc:Depends}, ${phpcomposer:Debian-require}
+Recommends: ${phpcomposer:Debian-recommend}
+Suggests: ${phpcomposer:Debian-suggest}
+Description: ${phpcomposer:description}
+ Shared library for Let's Connect! and eduVPN containing
+ functionality that is used by more than one of the other
+ components. WireGuard version.
+ Conflicts with php-lc-common.

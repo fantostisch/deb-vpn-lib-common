@@ -1,0 +1,4 @@
+ircmaxell	password-compat		none
+paragonie	random_compat		none
+symfony		polyfill-php56		none
+paragonie	constant_time_encoding	php-constant-time
