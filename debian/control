@@ -17,7 +17,6 @@ Vcs-Git: https://git.tuxed.net/LC/vpn-lib-common
 Package: wireguard-php-lc-common
 Architecture: all
 Conflicts: php-lc-common
-Provides: php-lc-common
 Depends: ${misc:Depends}, ${phpcomposer:Debian-require}
 Recommends: ${phpcomposer:Debian-recommend}
 Suggests: ${phpcomposer:Debian-suggest}
