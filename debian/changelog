@@ -1,3 +1,9 @@
+vpn-lib-common (0.0.3-1) sid; urgency=medium
+
+  * New upstream release
+
+ -- Nick Aquina <nickaquina@gmail.com>  Thu, 10 Dec 2020 20:46:30 +0100
+
 vpn-lib-common (0.0.1-2) unstable; urgency=medium
 
   * Do not provide php-lc-common
